@@ -24,7 +24,7 @@ production:
   <<: *default
   adapter: postgresql
   encoding: unicode
-  pool:5
+  pool: 5
   database: test_59uj
   username: test_59uj_user
   password: <%= ENV['MYSITE_DATABASE_PASSWORD'] %>
